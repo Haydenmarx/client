@@ -78,9 +78,9 @@ class Welcome extends Component {
         pageOneLeft: '-900px',
         pageTwoLeft: '-600px',
         pageThreeLeft: '-300px',
-        pageFourLeft: '0px',
-        
+        pageFourLeft: '0px'
       })
+    }
   }
 
   cancel() {
@@ -92,7 +92,7 @@ class Welcome extends Component {
       sentAmountInput: '',
       donationAmountInput: '',
       wallet: 'celadon_wallet',
-      attemptedTransaction: 'Success!'
+      attemptedTransaction: 'Success!',
     })  
   }
 
@@ -135,7 +135,7 @@ class Welcome extends Component {
     })
   }
 
-  updateWallet(e){
+  updateWallet(e) {
     this.setState({wallet: e.target.value})
   }
 
